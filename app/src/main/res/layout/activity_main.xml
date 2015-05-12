@@ -1,0 +1,175 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame" >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            tools:context=".MainActivity$PlaceholderFragment"
+            android:clickable="false"
+            android:id="@+id/layout"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/header_copy"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true" />
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton1"
+                android:clickable="true"
+                android:src="@drawable/lesson_copy"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson1"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:clickable="true"
+                android:src="@drawable/lesson2"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton4"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson3"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton5"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson4"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton6"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson5"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton7"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson6"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton8"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson7"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton9"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson8"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton10"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson9"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton11"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson10"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton12"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson11"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton13"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson12"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton14"
+                android:layout_weight="0.08"
+                android:clickable="true"
+                android:src="@drawable/lesson13"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
