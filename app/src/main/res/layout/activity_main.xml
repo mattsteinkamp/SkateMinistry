@@ -19,8 +19,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView"
-                android:src="@drawable/header_copy"
+                android:id="@+id/imageView0"
+                android:src="@mipmap/header_copy"
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true" />
 
@@ -30,10 +30,11 @@
                 android:layout_height="match_parent"
                 android:id="@+id/imageButton1"
                 android:clickable="true"
-                android:src="@drawable/lesson_copy"
+                android:src="@mipmap/lessons0"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
-                android:adjustViewBounds="true" />
+                android:adjustViewBounds="true"
+                android:longClickable="false" />
 
             <ImageButton
                 android:layout_width="match_parent"
@@ -41,7 +42,7 @@
                 android:id="@+id/imageButton2"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson1"
+                android:src="@mipmap/lessons1"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -51,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton3"
                 android:clickable="true"
-                android:src="@drawable/lesson2"
+                android:src="@mipmap/lessons2"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -62,7 +63,7 @@
                 android:id="@+id/imageButton4"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson3"
+                android:src="@mipmap/lessons3"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -72,7 +73,7 @@
                 android:id="@+id/imageButton5"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson4"
+                android:src="@mipmap/lessons4"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -82,7 +83,7 @@
                 android:id="@+id/imageButton6"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson5"
+                android:src="@mipmap/lessons5"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -92,7 +93,7 @@
                 android:id="@+id/imageButton7"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson6"
+                android:src="@mipmap/lessons6"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -102,7 +103,7 @@
                 android:id="@+id/imageButton8"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson7"
+                android:src="@mipmap/lessons7"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -112,7 +113,7 @@
                 android:id="@+id/imageButton9"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson8"
+                android:src="@mipmap/lessons8"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -122,7 +123,7 @@
                 android:id="@+id/imageButton10"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson9"
+                android:src="@mipmap/lessons9"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -132,7 +133,7 @@
                 android:id="@+id/imageButton11"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson10"
+                android:src="@mipmap/lessons10"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -142,7 +143,7 @@
                 android:id="@+id/imageButton12"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson11"
+                android:src="@mipmap/lessons11"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -152,7 +153,7 @@
                 android:id="@+id/imageButton13"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson12"
+                android:src="@mipmap/lessons12"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />
@@ -162,7 +163,7 @@
                 android:id="@+id/imageButton14"
                 android:layout_weight="0.08"
                 android:clickable="true"
-                android:src="@drawable/lesson13"
+                android:src="@mipmap/lessons13"
                 android:scaleType="fitXY"
                 android:background="#ffffff"
                 android:adjustViewBounds="true" />

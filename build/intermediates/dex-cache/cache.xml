@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\mjs9768\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\mjs9768\Documents\SkateMinistry-2015-05-11\SkateMinistry\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-cbd06434b749ae9a5d56322d0a0ee001d8dcb616.jar" />
-    </item>
-    <item
-        jar="C:\Users\mjs9768\Documents\SkateMinistry-2015-05-11\SkateMinistry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\mjs9768\Documents\SkateMinistry-2015-05-11\SkateMinistry\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-a872e9c5110899ca6662aca896036bb216e2a8a2.jar" />
-    </item>
-    <item
-        jar="C:\Users\mjs9768\Documents\SkateMinistry-2015-05-11\SkateMinistry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\mjs9768\Documents\SkateMinistry-2015-05-11\SkateMinistry\app\build\intermediates\pre-dexed\debug\classes-b4031a724eae1646646237f85a630c2c8f948b72.jar" />
-    </item>
-    <item
-        jar="C:\Users\mjs9768\Documents\SkateMinistry-2015-05-11\SkateMinistry\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jar="C:\Users\Matts\Documents\gitskate\SkateMinistry\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\mjs9768\Documents\SkateMinistry-2015-05-11\SkateMinistry\app\build\intermediates\pre-dexed\debug\classes-30dc446030ed30fe2bb576cb626077b8e9df3f29.jar" />
+        <dex dex="C:\Users\Matts\Documents\gitskate\SkateMinistry\app\build\intermediates\pre-dexed\debug\classes-884390c430027b6a3883510de722604464a14bea.jar" />
+    </item>
+    <item
+        jar="C:\Users\Matts\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Matts\Documents\gitskate\SkateMinistry\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-85fbec6169bc4fb5ee671f78016418c4d3167e74.jar" />
+    </item>
+    <item
+        jar="C:\Users\Matts\Documents\gitskate\SkateMinistry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Matts\Documents\gitskate\SkateMinistry\app\build\intermediates\pre-dexed\debug\classes-4faad4e36f71fc94838ad563b4767ad91446a7a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Matts\Documents\gitskate\SkateMinistry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Matts\Documents\gitskate\SkateMinistry\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-34c2236f23c96d47e53e94c660eeb2963195f02e.jar" />
     </item>
 
 </items>

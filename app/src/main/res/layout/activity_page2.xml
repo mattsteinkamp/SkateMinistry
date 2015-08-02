@@ -15,15 +15,34 @@
             android:layout_height="wrap_content"
             android:background="#ffffffff">
 
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView"
-                android:src="@drawable/pdfpage2"
+                android:id="@+id/lesson1topview"
+                android:src="@mipmap/lesson1top"
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true" />
-        </LinearLayout>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lesson1button"
+                android:clickable="true"
+                android:src="@mipmap/lesson1videobutton"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
 
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lesson1bottomview"
+                android:src="@mipmap/lesson1bottom"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true" />
+
+        </LinearLayout>
 
     </ScrollView>
 

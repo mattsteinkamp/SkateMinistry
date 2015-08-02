@@ -1,18 +1,21 @@
 package com.example.matts.Skateministry.app;
 
 import android.content.Intent;
+
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-public class MainActivity extends ActionBarActivity implements View.OnClickListener
-{
+import android.widget.ImageView;
+
+public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
     ImageButton button1, button2, button3, button4, button5, button6, button7, button8, button9, button10, button11, button12, button13, button14;
 
@@ -25,33 +28,33 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-        button1 = (ImageButton)findViewById(R.id.imageButton1);
+        button1 = (ImageButton) findViewById(R.id.imageButton1);
         button1.setOnClickListener(this);
-        button2 = (ImageButton)findViewById(R.id.imageButton2);
+        button2 = (ImageButton) findViewById(R.id.imageButton2);
         button2.setOnClickListener(this);
-        button3 = (ImageButton)findViewById(R.id.imageButton3);
+        button3 = (ImageButton) findViewById(R.id.imageButton3);
         button3.setOnClickListener(this);
-        button4 = (ImageButton)findViewById(R.id.imageButton4);
+        button4 = (ImageButton) findViewById(R.id.imageButton4);
         button4.setOnClickListener(this);
-        button5 = (ImageButton)findViewById(R.id.imageButton5);
+        button5 = (ImageButton) findViewById(R.id.imageButton5);
         button5.setOnClickListener(this);
-        button6 = (ImageButton)findViewById(R.id.imageButton6);
+        button6 = (ImageButton) findViewById(R.id.imageButton6);
         button6.setOnClickListener(this);
-        button7 = (ImageButton)findViewById(R.id.imageButton7);
+        button7 = (ImageButton) findViewById(R.id.imageButton7);
         button7.setOnClickListener(this);
-        button8 = (ImageButton)findViewById(R.id.imageButton8);
+        button8 = (ImageButton) findViewById(R.id.imageButton8);
         button8.setOnClickListener(this);
-        button9 = (ImageButton)findViewById(R.id.imageButton9);
+        button9 = (ImageButton) findViewById(R.id.imageButton9);
         button9.setOnClickListener(this);
-        button10 = (ImageButton)findViewById(R.id.imageButton10);
+        button10 = (ImageButton) findViewById(R.id.imageButton10);
         button10.setOnClickListener(this);
-        button11 = (ImageButton)findViewById(R.id.imageButton11);
+        button11 = (ImageButton) findViewById(R.id.imageButton11);
         button11.setOnClickListener(this);
-        button12 = (ImageButton)findViewById(R.id.imageButton12);
+        button12 = (ImageButton) findViewById(R.id.imageButton12);
         button12.setOnClickListener(this);
-        button13 = (ImageButton)findViewById(R.id.imageButton13);
+        button13 = (ImageButton) findViewById(R.id.imageButton13);
         button13.setOnClickListener(this);
-        button14 = (ImageButton)findViewById(R.id.imageButton14);
+        button14 = (ImageButton) findViewById(R.id.imageButton14);
         button14.setOnClickListener(this);
 
     }
@@ -77,7 +80,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         return super.onOptionsItemSelected(item);
     }
-    private void button1click(){
+
+    private void button1click() {
         //Intent intent = new Intent(this, activity1.class);
         //startActivity(intent);
         startActivity(new Intent("com.example.matts.Skateministry.activity1"));
@@ -130,59 +134,60 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         }
     }
-    private void button2click(){
+
+    private void button2click() {
 
         startActivity(new Intent("com.example.matts.Skateministry.activity2"));
-        }
+    }
 
-    private void button3click(){
+    private void button3click() {
 
         startActivity(new Intent("com.example.matts.Skateministry.activity3"));
     }
 
-    private void button4click(){
+    private void button4click() {
         startActivity(new Intent("com.example.matts.Skateministry.activity4"));
-            }
+    }
 
-    private void button5click(){
+    private void button5click() {
         startActivity(new Intent("com.example.matts.Skateministry.activity5"));
-            }
+    }
 
-    private void button6click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity6"));
-            }
+    private void button6click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity6"));
+    }
 
-    private void button7click(){
+    private void button7click() {
         startActivity(new Intent("com.example.matts.Skateministry.activity7"));
-            }
+    }
 
-    private void button8click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity8"));
-            }
+    private void button8click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity8"));
+    }
 
-    private void button9click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity9"));
-            }
+    private void button9click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity9"));
+    }
 
-    private void button10click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity10"));
-            }
+    private void button10click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity10"));
+    }
 
-    private void button11click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity11"));
-            }
+    private void button11click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity11"));
+    }
 
-    private void button12click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity12"));
-            }
+    private void button12click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity12"));
+    }
 
-    private void button13click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity13"));
-            }
+    private void button13click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity13"));
+    }
 
-    private void button14click(){
-            startActivity(new Intent("com.example.matts.Skateministry.activity14"));
-            }
+    private void button14click() {
+        startActivity(new Intent("com.example.matts.Skateministry.activity14"));
+    }
 
     /**
      * A placeholder fragment containing a simple view.

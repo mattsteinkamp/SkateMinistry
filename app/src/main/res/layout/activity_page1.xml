@@ -16,31 +16,12 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:id="@+id/imageView2"
-            android:layout_below="@+id/scrollView2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:src="@drawable/page0" />
-
-        <TextView
-            android:layout_width="6dp"
-            android:layout_height="wrap_content"
-            android:text="New Text"
-            android:id="@+id/textView"
-            android:layout_below="@+id/scrollView2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:id="@+id/imageView2"
-            android:layout_below="@+id/scrollView2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:src="@drawable/fotter1" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true" />
 
         </LinearLayout>
 

@@ -1,50 +1,48 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.matts.Skateministry.app.page1">
-
-    <ScrollView
-        android:layout_width="wrap_content"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame" >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" >
-
+        android:id="@+id/scrollView" >
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            tools:context=".MainActivity$PlaceholderFragment"
+            android:clickable="false"
+            android:id="@+id/layout"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff">
+
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:id="@+id/imageView2"
-                android:layout_below="@+id/scrollView2"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:src="@drawable/page4" />
-
-            <TextView
-                android:layout_width="6dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="New Text"
-                android:id="@+id/textView"
-                android:layout_below="@+id/scrollView2"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:id="@+id/lesson4topview"
+                android:src="@mipmap/lesson4top"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lesson4button"
+                android:clickable="true"
+                android:src="@mipmap/lesson4videobutton"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:id="@+id/imageView2"
-                android:layout_below="@+id/scrollView2"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:src="@drawable/fotter1" />
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lesson4bottomview"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src = "@mipmap/lesson4bottom"/>
         </LinearLayout>
 
     </ScrollView>
 
-</RelativeLayout>
+</FrameLayout>

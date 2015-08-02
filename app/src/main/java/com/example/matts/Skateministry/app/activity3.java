@@ -5,14 +5,20 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.content.Intent;
+import android.widget.ImageButton;
 
 
-public class activity3 extends ActionBarActivity {
+
+public class activity3 extends ActionBarActivity implements View.OnClickListener {
+    ImageButton button1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page3);
+        button1 = (ImageButton) findViewById(R.id.lesson2button);
+        button1.setOnClickListener(this);
     }
 
 
@@ -37,10 +43,26 @@ public class activity3 extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    /** Called when the user clicks the Send button */
+
+    /**
+     * Called when the user clicks the Send button
+     */
     public void sendMessage(View view) {
         // Do something in response to button
     }
 
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.lesson2button:
+                button1click();
+                break;
 
+        }
+    }
+
+    private void button1click() {
+        Intent intent = new Intent(this, activity1.class);
+        startActivity(intent);
+        startActivity(new Intent("com.example.matts.Skateministry.webview3"));
+    }
 }
